@@ -10,6 +10,7 @@ namespace SpaceTaxesCalculator
     {
         public static void Main()
         {
+            //try with DI container here
             try
             {
                 using var context = new TaxCalculatorDbContext();
